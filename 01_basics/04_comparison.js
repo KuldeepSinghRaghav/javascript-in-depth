@@ -1,3 +1,9 @@
+// ******************** COMPARISON ********************
+// JavaScript supports two equality checks:
+// == (loose equality): compares values after type conversion
+// === (strict equality): compares values *and* types
+// Be careful with comparisons involving null, undefined, strings
+
 // ******************** Basics *********************
 
 // These are basic number comparisons:

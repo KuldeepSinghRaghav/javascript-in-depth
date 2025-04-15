@@ -1,3 +1,8 @@
+// ******************** VARIABLES ********************
+// Variables are containers used to store data values.
+// In JavaScript, we use `let`, `const`, and `var` (avoid `var` in modern code).
+// `let` allows reassignment, `const` is for constants (no reassignment), `var` is function-scoped.
+
 const accountId = 14456789; // Constant, cannot be reassigned
 let accountEmail = 'dummy_01@email.com'; // Can be reassigned
 var accountPassword = '12345'; // Avoid using var, see comments below

@@ -1,3 +1,8 @@
+// ******************** STRING METHODS ********************
+// JavaScript strings are immutable and have many useful methods
+// e.g. .length, .toUpperCase(), .charAt(), .indexOf(), .slice(), .trim(), .replace(), .includes(), etc.
+// Use backticks (``) for template strings and dynamic values
+
 const name = "kuldeep";
 const repoCount = 50;
 
@@ -19,6 +24,7 @@ console.log(gameName.__proto__);   // Shows all methods available to string
 
 // String properties and methods:
 console.log(gameName.length);      // 14 → total number of characters
+console.log(gameName.valueOf());  // Get PrimitiveValue(Actual String) in output
 console.log(gameName.toUpperCase()); // Converts entire string to uppercase
 console.log(gameName.charAt(2));   // Character at index 2 → 'l'
 console.log(gameName.indexOf("p")); // Finds index of first occurrence → 7
@@ -86,6 +92,29 @@ const inputSentence = "hello i am here kuldeep";
 
 const reversedWords = inputSentence.split(" ").reverse().join(" ");
 console.log(reversedWords); // Output: "kuldeep here am i hello"
+
+// -------------------------------------------
+// Count how many times 'l' appears in a string
+// -------------------------------------------
+
+const newLines = 'hello i am lamo';
+
+// ✅ Method 1: Using split()
+const countWithSplit = newLines.split('l').length - 1;
+console.log(`Using split(): Number of 'l' = ${countWithSplit}`);
+
+// ✅ Method 2: Using RegExp match()
+const matches = newLines.match(/l/g);
+const countWithRegex = matches ? matches.length : 0;
+console.log(`Using RegExp: Number of 'l' = ${countWithRegex}`);
+
+// ✅ Method 3: Using a loop
+let countWithLoop = 0;
+for (let char of newLines) {
+  if (char === 'l') countWithLoop++;
+}
+console.log(`Using loop: Number of 'l' = ${countWithLoop}`);
+
 
 /*
 📘 Notes:

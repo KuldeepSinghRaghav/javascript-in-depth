@@ -3,7 +3,7 @@
 // There are 7 primitive data types in JavaScript:
 
 // 1. String  => used to represent text
-let name = "Hitesh"; // e.g., "hello", "123", 'abc'
+let name = "Kuldeep"; // e.g., "hello", "123", 'abc'
 
 // 2. Number  => represents both integers and floating point numbers
 let age = 25; // e.g., 25, 3.14
@@ -58,7 +58,11 @@ const myFunction = function () {
 // - Primitive: String, Number, Boolean, null, undefined, Symbol, BigInt
 // - Reference: Object, Array, Function
 
-//! ******************** Memory in JavaScript ********************
+//! ****************** Memory in JavaScript ********************
+// ******************** MEMORY MANAGEMENT ********************
+// Stack: Stores primitive data (copied by value)
+// Heap: Stores non-primitive/reference data (copied by reference)
+// Stack data is independent; heap data shares reference
 // Stack (for Primitive data types) and Heap (for Non-Primitive/Reference data types)
 
 // ---------------- Stack Example ----------------

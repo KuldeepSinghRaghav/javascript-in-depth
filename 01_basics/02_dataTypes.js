@@ -1,7 +1,12 @@
+// ******************** DATA TYPES ********************
+// JavaScript has two main types of data:
+// 1. Primitive: String, Number, Boolean, null, undefined, Symbol, BigInt
+// 2. Non-Primitive (Reference): Arrays, Objects, Functions
+// Primitives are stored in Stack memory; References in Heap.
+
 "use strict"; // Treat all JS code as per the latest version of JavaScript (strict mode catches more errors and prevents some unsafe actions)
 
 // Variable declarations with different data types
-
 let name = "hitesh"; // string datatype
 let age = 18; // number datatype: can be integers or floating-point numbers
 let isLoggedIn = false; // boolean datatype: only true or false

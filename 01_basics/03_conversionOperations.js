@@ -1,3 +1,8 @@
+// ******************** TYPE CONVERSION ********************
+// Type conversion is the process of converting one datatype to another.
+// E.g. String to Number, Boolean to String, etc.
+// Use `Number()`, `Boolean()`, `String()` for explicit conversions.
+
 let score = "33"; // string that looks like a number
 let scoreWithString = "33abc"; // string with non-numeric characters
 let isLoggedIn = 1; // number 1 is often treated as "true" when converted to boolean

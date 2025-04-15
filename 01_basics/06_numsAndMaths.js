@@ -1,3 +1,8 @@
+// ******************** NUMBERS & MATH ********************
+// JavaScript numbers are floating point by default
+// Common methods: toFixed(), toPrecision(), toString(), toLocaleString()
+// Math functions: Math.abs(), Math.round(), Math.floor(), Math.ceil(), Math.random(), Math.sqrt()
+
 //! ******* Number Basics *******
 
 const score = 400; // Simple number declaration
